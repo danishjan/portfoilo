@@ -631,6 +631,116 @@ font-size: 50px;
   margin: 0 auto;
 }
 /* Work Section Ends Here */
+* Contact Section Starts Here */
+
+#contactUs .contact-us-head {
+  width: 50%;
+  text-align: center;
+  margin: auto;
+  padding: 0px 0px 30px;
+}
+#contactUs .contact-us-head h2 {
+  font-size: 40px;
+  font-weight: 600;
+  padding: 10px 0px;
+}
+#contactUs .container .row .col .contact-options {
+  text-align: center;
+  margin: 0 auto;
+  letter-spacing: 1px;
+}
+#contactUs .container .row .col .contact-options i {
+  font-size: 40px;
+  padding: 20px 0px;
+  color: crimson;
+}
+#contactUs .container .row .col .contact-options i:hover {
+  color: red;
+}
+#contactUs .container .row .col .contact-options h3 {
+  font-size: larger;
+  line-height: 30px;
+}
+#contactUs .container .row .col .form1 {
+  width: 96%;
+}
+#contactUs .container .row .col .form1 .col-50 {
+  width: 45%;
+  font-size: 20px;
+  padding: 10px 15px;
+  margin: 40px 8px 0px;
+  color: grey;
+  border: 1px solid darkgray;
+  border-radius: 8px;
+}
+#contactUs .container .row .col .form1 .col-100 {
+  width: 96%;
+  font-size: 20px;
+  padding: 10px 15px;
+  margin: 40px 4px 0px;
+  color: grey;
+  border: 1px solid darkgray;
+  border-radius: 8px;
+}
+#contactUs .container .row .col .form1 .submitBtn {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* Contact Section Ends Here */
+
+/* Footer Section Starts Here */
+
+#footerSec {
+  background-color: #242424;
+  color: antiquewhite;
+  text-align: center;
+  font-size: 22px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: "Courier New", Courier, monospace;
+}
+#footerSec .container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+}
+#footerSec .container .row .col .footIcons i {
+  background-color: #343434;
+  border-radius: 25px;
+}
+
+/* Footer Section Ends Here */
+
+@media (max-width: 992px) {
+  #section-slider .container .row .content-box {
+    width: 100%;
+    text-align: center;
+  }
+  #our-work .container .row .work-imagesbox1 {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 5px;
+  }
+  #our-work .container .row .work-imagesbox2 {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 5px;
+  }
+  #our-blog .container .row .col .blog-box,
+  .blog-description {
+    margin: 10px 5px;
+    width: 100%;
+  }
+  #contactUs .container .row .col .form1 .col-50 {
+    width: 96%;
+  }
+}
+
+
+/*contact-us section end here*/
 @media (max-width: 992px) {
   #section-slider .container .row .content-box {
     width: 100%;
